@@ -1,0 +1,29 @@
+{
+  "name": "hardhttps",
+  "version": "0.0.4",
+  "description": "Make an https server that is more resistant to client-initiated renegotiations, and other common security mistakes.",
+  "main": "hardhttps.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "^1.2.0"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drylikov/hardhttps"
+  },
+  "keywords": [
+    "https",
+    "BEAST",
+    "client",
+    "renegotiation",
+    "attack"
+  ],
+  "author": "",
+  "license": "ISC"
+}
